@@ -30,16 +30,10 @@
     "revision": "cm-13.0"
   },
   {
-    "remote": "github",
-    "repository": "CrazyWeasel/proprietary_vendor_oppo",
+    "remote": "tm",
+    "repository": "proprietary_vendor_oppo",
     "target_path": "vendor/oppo",
-    "revision": "n-3.0"
-  },
-  {
-   "remote": "CyanogenMod",
-   "repository": "android_hardware_sony_timekeep",
-   "target_path": "hardware/sony/timekeep",
-   "revision": "cm-13.0"
+    "revision": "cm-13.0"
   },
   {
    "remote": "CyanogenMod",
