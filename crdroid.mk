@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Inherit framework first
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+
+# Inherit from find7 device
 $(call inherit-product, device/oppo/find7/find7.mk)
 
 # Enhanced NFC
@@ -19,7 +23,6 @@ $(call inherit-product, vendor/crdroid/config/nfc_enhanced.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/crdroid/config/common_full_phone.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 PRODUCT_NAME := crdroid_find7
 PRODUCT_DEVICE := find7
